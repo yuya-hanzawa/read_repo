@@ -12,4 +12,5 @@ on:
 
 jobs:
   call:
-    uses: yuya-hanzawa/base_repo/.github/workflows/called_workflows.yaml@main
+    uses: yuya-hanzawa/base_repo/.github/workflows/called_workflows.yml@main
+    secrets: inherit
